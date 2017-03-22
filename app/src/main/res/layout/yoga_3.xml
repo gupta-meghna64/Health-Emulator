@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="181dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/shava"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="17dp"
+        android:text=" The body relaxes and goes into a deep meditative state, which in turn helps repair the cells and tissues and releases stress. The direct effect of meditation is focus and concentration. While you focus on each area of your body while you are in Shavasana, your mind automatically improves concentration and memory.
+
+"
+        android:id="@+id/textView" />
+
+</LinearLayout>

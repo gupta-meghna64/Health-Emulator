@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="181dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/vaj"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="17dp"
+        android:text="This asana improves digestion and eliminates constipation.
+Better digestion prevents ulcers and acidity.
+It helps to ease out labor pains and also reduces menstrual cramps.
+This asana is one of the best ones to assume when you wish to go into a meditative state since it is an upright pose.
+ "
+
+
+        android:id="@+id/textView" />
+
+</LinearLayout>

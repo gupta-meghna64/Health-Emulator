@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="181dp"
+        android:layout_height="212dp"
+        android:src="@drawable/garlic"
+        android:layout_marginLeft="100dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soothe a sore throat:
+Gargle twice daily with a solution of six pressed garlic cloves mixed into a glass of warm (not hot) water. Follow the regimen for 3 days. Research shows that fresh garlic juice has antimicrobial properties that fight pain-causing bacteria. The warm liquid soothes inflamed tissue. "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"/>
+
+</LinearLayout>

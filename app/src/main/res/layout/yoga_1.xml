@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="181dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/hala"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="17dp"
+        android:text=" This asana massages the digestive organs, and therefore, improves digestion and regulates appetite. It regulates metabolism and helps in weight loss. It flexes the spinal cord and releases the strain in the back, thereby enhancing posture and reducing any pain. It helps relieve the symptoms of menopause and stimulates the reproductive system. It helps reduce stress and fatigue. It helps cure backaches, infertility, sinusitis, insomnia, and headaches."
+        android:id="@+id/textView" />
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="181dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/tad"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="17dp"
+        android:text="This asana helps improve body posture. With regular practice of this asana, your knees, thighs, and ankles become stronger. Your buttocks and abdomen get toned. This asana reduces flat feet. It is an excellent asana for those who want to increase their height in their formative years. It also helps improve balance."
+        android:id="@+id/textView" />
+
+</LinearLayout>
